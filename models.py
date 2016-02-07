@@ -6,7 +6,7 @@ from django.core.urlresolvers import reverse
 # Create your models here.
 
 class Post(models.Model):
-    title = models.CharField(max_length=120)
+    title = models.CharField(max_length=130)
     image = models.ImageField(null=True, blank=True, 
         width_field="width_field", 
         height_field="height_field")
